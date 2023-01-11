@@ -1,12 +1,12 @@
 # LaravelAlias
 liste de raccourcis laravel pour git-bash
-#Installation
-##Requis: 
+# Installation
+## Requis: 
 git-bash
-##destination 
+## destination 
 %userProfile%  <=> C:\users\UserName.bashrc
 copier le fichier et remplacer l'existant
-#Contenu
+# Contenu
 alias pa='php artisan'
 alias pam='php artisan migrate'
 alias pamf='php artisan migrate --fresh'

@@ -4,9 +4,13 @@ liste de raccourcis laravel pour git-bash
 ## Requis: 
 git-bash
 ## destination 
-%userProfile%  <=> C:\users\UserName\.bashrc
-copier le fichier et remplacer l'existant
+Executer (Win+R)
+```bash
+%userProfile%
+```
+créer un fichier .bashrc  copier la section **Contenu** dans le fichier
 # Contenu
+```
 alias pa='php artisan'
 alias pam='php artisan migrate'
 alias pamf='php artisan migrate --fresh'
@@ -55,4 +59,4 @@ alias pa_jetv='php artisan vendor:publish --tag=jetstream-views'
 alias cr_voyager='composer require tcg/voyager'
 alias pa_voyager='php artisan voyager:install'
 alias pa_voyadmin='php artisan voyager:admin admin@voyager.com --create'
-
+```

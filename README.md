@@ -4,7 +4,7 @@ liste de raccourcis laravel pour git-bash
 ## Requis: 
 git-bash
 ## destination 
-%userProfile%  <=> C:\users\UserName.bashrc
+%userProfile%  <=> C:\users\UserName\.bashrc
 copier le fichier et remplacer l'existant
 # Contenu
 alias pa='php artisan'

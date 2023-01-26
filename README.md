@@ -42,6 +42,9 @@ alias cr_debug='composer require barryvdh/laravel-debugbar --dev'
 alias cr_ui='composer require laravel/ui'
 alias pa_uib='php artisan ui bootstrap --auth'
 
+alias cr_breeze='composer require laravel/breeze'
+alias pa_breeze='php artisan breeze:install'
+
 alias cr_orchid='composer require orchid/platform'
 alias pa_orchid='php artisan orchid:install'
 alias pa_orchidadmin='php artisan orchid:admin yadmin admin@admin.com 3admin'

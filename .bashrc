@@ -7,6 +7,8 @@ alias pads='php artisan db:seed'
 alias pas='php artisan serve'
 alias pakg='php artisan key:generate'
 alias past='php artisan session:table'
+alias pavc='php artisan view:cache'
+alias pavcl='php artisan view:clear'
 
 alias ci='composer install'
 alias cu='composer update'
@@ -20,6 +22,7 @@ alias nird='npm install && npm run dev'
 alias nrd='npm run dev'
 alias nrw='npm run watch'
 alias nig='npm install -g npm'
+alias ns='npm start'
 
 alias nxm='npx mix'
 
@@ -29,15 +32,12 @@ alias lnew='laravel new'
 
 alias cr_debug='composer require barryvdh/laravel-debugbar --dev'
 
+alias cr_spladeb='composer require protonemedia/laravel-splade-breeze'
+alias cr_splade='composer require protonemedia/laravel-splade'
+alias pa_splade='php artisan breeze:install'
+
 alias cr_ui='composer require laravel/ui'
 alias pa_uib='php artisan ui bootstrap --auth'
-
-alias cr_orchid='composer require orchid/platform'
-alias pa_orchid='php artisan orchid:install'
-alias pa_orchidadmin='php artisan orchid:admin yadmin admin@admin.com 3admin'
-
-alias cr_sowl='composer require laravelrus/sleepingowl:8.*'
-alias pa_sowl='php artisan sleepingowl:install'
 
 alias cr_breeze='composer require laravel/breeze'
 alias pa_breeze='php artisan breeze:install'
@@ -46,7 +46,8 @@ alias cr_jet='composer require laravel/jetstream'
 alias pa_jet='php artisan jetstream:install livewire --teams'
 alias pa_jetv='php artisan vendor:publish --tag=jetstream-views'
 
-alias cr_voyager='composer require tcg/voyager'
-alias pa_voyager='php artisan voyager:install'
-alias pa_voyadmin='php artisan voyager:admin admin@admin.com --create'
-
+alias gi='git init'
+alias gs='git status'
+alias ga='git add * -f'
+alias gc='git commit'
+alias gp='git pull'

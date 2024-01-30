@@ -1,6 +1,7 @@
 alias pa='php artisan'
-alias pads='php artisan db:seed'
 alias pacrud='php artisan make:crud'
+alias pads='php artisan db:seed'
+alias pagf='php artisan generate:factory'
 alias pais='php artisan iseed'
 alias pakg='php artisan key:generate'
 alias pam='php artisan migrate'
@@ -61,6 +62,7 @@ alias cr_spatie='composer require spatie/laravel-permission && php artisan vendo
 alias cr_iseed='composer require orangehill/iseed'
 alias cr_idgen='composer require haruncpi/laravel-id-generator'
 alias cr_acl='composer require mateusjunges/laravel-acl && php artisan vendor:publish --provider="Junges\ACL\Providers\ACLServiceProvider"'
+alias cr_fgen='composer require thedoctor0/laravel-factory-generator --dev'
 
 
 # alias pa_breeze='php artisan breeze:install blade'

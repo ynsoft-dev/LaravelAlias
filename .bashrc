@@ -1,3 +1,4 @@
+#  PHP ARTISAN ALIAS
 alias pa='php artisan'
 alias pacrud='php artisan make:crud'
 alias pads='php artisan db:seed'
@@ -23,6 +24,7 @@ alias pav='php artisan --version'
 alias pavc='php artisan view:cache'
 alias pavcl='php artisan view:clear'
 
+#  COMPOSER ALIAS
 alias sqlite='touch database/database.sqlite'
 alias ci='composer install'
 alias cu='composer update'
@@ -30,6 +32,7 @@ alias cda='composer dump-autoload'
 alias cgli='composer global require laravel/installer'
 alias csu='composer selfupdate'
 
+#  NODE NPM ALIAS
 alias ni='npm install'
 alias cini='composer install && npm install'
 alias cuni='composer update && npm install'
@@ -43,17 +46,21 @@ alias nrd='npm run dev'
 alias nrw='npm run watch'
 alias ns='npm start'
 
+#  GENERAL ALIAS
 alias clr='clear'
 
+#  SHORTCUTS ALIAS
 alias www='cd d:/wamp64/www/'
 alias gquart='cd d:/g-quart/'
 
+# LARAVEL INSTALLATION  ALIAS
 alias wcop='cd //cevcop0101/www/'
 alias laranew='composer create-project laravel/laravel'
 alias lnew='laravel new'
 alias cpenv='cp ".env.example" ".env"'
 alias bashrc='subl c:\\users\\younes.chibouti\\.bashrc'
 
+#  COMPOSER REQUIRE ALIAS
 alias cr_debug='composer require barryvdh/laravel-debugbar --dev'
 
 alias cr_ui='composer require laravel/ui && php artisan ui bootstrap --auth && nird'
@@ -73,9 +80,12 @@ alias cr_fgen='composer require thedoctor0/laravel-factory-generator --dev'
 # alias pa_breeze='php artisan breeze:install blade'
 
 
+#  GIT ALIAS
 alias gi='git init'
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m'
 alias gl='git log'
 alias gclone='git clone'
+alias clgeode='git clone https://github.com/ynsoft-dev/NewGeode.git NewGeode && cd newgeode && cuni'
+alias clgpao='git clone https://github.com/ynsoft-dev/GPAO.git GPAO && cd gpao && cuni'

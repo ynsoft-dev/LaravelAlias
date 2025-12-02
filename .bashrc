@@ -3,6 +3,7 @@ alias pa='php artisan'
 alias pacc='php artisan config:clear'
 alias pacrud='php artisan make:crud'
 alias pads='php artisan db:seed'
+alias padshow='php artisan db:show'
 alias pagf='php artisan generate:factory'
 alias pais='php artisan iseed'
 alias pakg='php artisan key:generate'
@@ -26,7 +27,6 @@ alias pavcl='php artisan view:clear'
 
 #  COMPOSER ALIAS
 alias cda='composer dump-autoload'
-alias cgli='composer global require laravel/installer'
 alias ci='composer install'
 alias cini='composer install && npm install'
 alias cu='composer update'
@@ -34,6 +34,11 @@ alias cuni='composer update && npm install'
 alias cunu='composer update && npm update'
 alias crd='composer run dev'
 alias csu='composer selfupdate'
+
+#  PIE ALIAS
+alias pi='pie install'
+alias pse='pie self-update'
+
 
 #  NODE NPM ALIAS
 alias ni='npm install'
@@ -60,6 +65,7 @@ alias wcop='cd //cevcop0101/www/'
 # LARAVEL INSTALLATION  ALIAS
 alias laranew='composer create-project laravel/laravel'
 alias lnew='laravel new'
+alias lnldsk='laravel new LaravDailyStarterKit --using=laraveldaily/starter-kit'
 alias cpenv='cp ".env.example" ".env"'
 alias bashrc='subl c:\\users\\younes.chibouti\\.bashrc'
 
@@ -86,6 +92,7 @@ alias gl='git log'
 alias gori='git remote add origin'
 alias gp='git push -u origin master'
 alias gs='git status'
+alias gf='git fetch'
 
 alias gc_geode='git clone https://github.com/ynsoft-dev/NewGeode.git NewGeode && cd newgeode && cini'
 alias gc_gpao='git clone https://github.com/ynsoft-dev/GPAO.git GPAO && cd gpao && cini'

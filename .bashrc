@@ -11,6 +11,10 @@ alias pam='php artisan migrate'
 alias pamr='php artisan migrate:refresh'
 alias pamrs='php artisan migrate:refresh --seed'
 alias pamc='php artisan make:controller'
+alias pamfu='php artisan make:filament-user'
+alias pamfr='php artisan make:filament-resource'
+alias pamfp='php artisan make:filament-panel'
+alias pamfw='php artisan make:filament-widget'
 alias paml='php artisan make:livewire'
 alias pamm='php artisan make:model'
 alias pamv='php artisan make:view'
@@ -34,10 +38,11 @@ alias cuni='composer update && npm install'
 alias cunu='composer update && npm update'
 alias crd='composer run dev'
 alias csu='composer selfupdate'
+alias vers='composer -V && php -v && echo "NPM " && npm -v && echo "Node " && node -v && echo "Laravel " && laravel -v'
 
 #  PIE ALIAS
-alias pi='pie install'
-alias pse='pie self-update'
+#alias pi='pie install'
+#alias pse='pie self-update'
 
 
 #  NODE NPM ALIAS
@@ -70,12 +75,13 @@ alias cpenv='cp ".env.example" ".env"'
 alias bashrc='subl c:\\users\\younes.chibouti\\.bashrc'
 
 #  COMPOSER REQUIRE ALIAS
-alias cr_debug='composer require barryvdh/laravel-debugbar --dev'
+alias cr_debug='composer require fruitcake/laravel-debugbar --dev'
 
 alias cr_acl='composer require mateusjunges/laravel-acl && php artisan vendor:publish --provider="Junges\ACL\Providers\ACLServiceProvider"'
 alias cr_alte='composer require jeroennoten/laravel-adminlte && php artisan adminlte:install'
 alias cr_breeze='composer require laravel/breeze --dev && php artisan breeze:install blade'
 alias cr_fgen='composer require thedoctor0/laravel-factory-generator --dev'
+alias cr_fil='composer require filament/filament && php artisan filament:install --panels'
 alias cr_iseed='composer require orangehill/iseed'
 alias cr_li='composer global require laravel/installer'
 alias cr_lwire='composer require livewire/livewire'
